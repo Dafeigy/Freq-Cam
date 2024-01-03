@@ -32,6 +32,6 @@ def set_args(description='5G classify model'):
     parser.add_argument('--activation', type=str, default='gelu', help='activation')
 
 
-    args=parser.parse_args()
+    args=parser.parse_known_args()[0]
 
     return args

@@ -11,8 +11,8 @@ new_st = {key.replace("module.", ""): value for key, value in st.items()}
 opt=set_args()
 model = Timesnet_DANN.Model_domain(opt)
 model.load_state_dict(new_st)
-print("[ MODEL ] MODEL LOADED.]")
+print("[ MODEL ] MODEL LOADED.")
 model = model.to(device)
 model.eval()
 
-print(model)
+
