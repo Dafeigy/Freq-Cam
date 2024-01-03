@@ -9,3 +9,10 @@ Timesnet_DANN.py
 train.py
 
 utils.py
+
+__pycache__
+
+process-new
+
+*.txt
+
